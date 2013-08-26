@@ -1,5 +1,5 @@
 # Makefile.am -- Process this file with automake to produce Makefile.in
-
+ACLOCAL_AMFLAGS = -I /opt/local/share/aclocal
 SUBDIRS = . $(MAYBE_GUI)
 
 AUTOMAKE_OPTIONS = subdir-objects
